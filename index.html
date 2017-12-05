@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Магистерская работа</title>
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Страница о магистерской работе Деменкова Алексея</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="https://content.onliner.by/service_market/ad7e8165/280x280/681b1d653c5f05c24434a4ecf410c0c3.jpeg" alt="Фотография Иванова И. И." class="photo">
+            <p>Родился 29 августа 1994 г. Минска </p>
+            <p>B 2017 г. с отличием закончил Факультет международных отношений БГУ. Специальность "международные отношения". Тема дипломной работы "Расширение Европейских сообществ в 1970-1980-е гг.". Защищено на отлично.</p>
+            <p>С 2017 г. магистрант Факультета международных отношений БГУ по специальность "История международных отношений и внешней политики". Тема диссертации "Популизм как угроза внешней политике Германии".</p>
+            <p>Опубликовано более 10 научных работ по истории, политологии, актуальным проблемам международных отношений и внешней политике. Участник ряда конференций и летних школ, в т.ч. за рубежом по проблемам международных отношений
+              Стажировался в Рурском университете Бохума (Германия).</p>
+            <p>Владеет немецким, английским языками.</p>
+            <p>Не женат. Детей нет. </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/alexdemenkov/master/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
+                </li>
+                <li>
+                    Научный руководитель: <a href="http://fir.bsu.by/index.php/ru/departments/ir-in-menu/25-departments/ir-department/ir-staff/359-ir-dostanko.html" target="_blank">Достанко Елена Анатольевна</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
